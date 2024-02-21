@@ -5,7 +5,7 @@ import { buttonVariants } from '../ui/button'
 function Logo() {
   return (
     <Link
-      href={'/dashboard'}
+      href={'/'}
       className={buttonVariants({
         className:
           'navLink !mb-10 hidden md:flex lg:!p-0 lg:hover:bg-transparent',
